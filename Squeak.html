@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Squeak</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button class="round-button">
+            Blog do Squeak
+        </button>
+    </div>
+    <div class="space"></div>
+    <h1>Squeak's new song tu-to-rial</h1>
+    <p>Squeak squeak, queak, quak. Squeak queak!!! Squeak squek Squak-queeeek!!!! <br><br> Squeak-qik: <a href="http://www.google.com"><b>Squeak Quak!!</b></a>
+    Squeak novo musicaa!!!!!! song tu-torial!!! Squak sqek queeek!!! Squok, sqek, quoak. Squek? Squeak, quak! Squak?Squeeek!!! Squeak Squak quek-quak? quek. Squeak Sqak?</p>
+    <br>
+    <button class="round-button2" onclick="divshow()">See song squak!</button>
+    <div id="examples" style="display: none;">
+        <audio src="audio/sqeak.MP3" controls></audio>
+    </div>
+    <div class="space"></div>
+    <div class="options">
+        <button id="share" onclick="shareoptions()">
+            <img src="img/share.png" alt="Compartilhar" style="height: 89px;">
+        </button>
+        <div id="shareoptions" style="display: none;">
+            <button id="close" onclick="shareoptions()">
+                <img src="img/close.png" alt="close options" style="height: 60px;">
+            </button>
+            <a id="mail" href="mailto:?subject=Squeak%27s%20new%20song%20tutorial&body=Squeak squeak, queak, quak. Squeak queak!!! Squeak squek Squak-queeeek!!!!%0A%0ASqueak-qik: Squeak Quak!! Squeak novo musicaa!!!!!! song tu-torial!!! Squak sqek queeek!!! Squok, sqek, quoak. Squek? Squeak, quak! Squak?Squeeek!!! Squeak Squak quek-quak? quek. Squeak Sqak?">
+                <img src="img/mail.png" alt="Share by E-mail" style="height: 100px;">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
